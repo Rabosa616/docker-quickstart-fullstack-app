@@ -5,11 +5,10 @@ import { ControlRoutingModule } from './control-routing.module';
 import { ControlPagesModule } from './pages/control-pages.module';
 
 @NgModule({
-  entryComponents: [],
-  imports: [
-    CommonModule,
-    ControlRoutingModule,
-    ControlPagesModule,
-  ],
+    imports: [
+        CommonModule,
+        ControlRoutingModule,
+        ControlPagesModule,
+    ]
 })
 export class ControlModule {}

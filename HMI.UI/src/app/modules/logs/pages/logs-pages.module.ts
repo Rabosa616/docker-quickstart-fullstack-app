@@ -7,16 +7,15 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from '@app/shared/shared.module';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule,
-    LogsComponentsModule,
-    SharedModule,
-  ],
-  entryComponents: [],
-  declarations: [
-    StatusComponent,
-    ViewLogComponent,
-  ],
+    imports: [
+        CommonModule,
+        RouterModule,
+        LogsComponentsModule,
+        SharedModule,
+    ],
+    declarations: [
+        StatusComponent,
+        ViewLogComponent,
+    ]
 })
 export class LogsPagesModule {}

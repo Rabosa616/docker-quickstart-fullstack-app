@@ -6,16 +6,15 @@ import { StatusComponent } from './status/status.component';
 import { OverviewComponent } from './overview/overview.component';
 
 @NgModule({
-  // eslint-disable-next-line prettier/prettier
-  imports: [
-    CommonModule,
-    RobotComponentsModule,
-    SharedModule,
-  ],
-  entryComponents: [],
-  declarations: [
-    StatusComponent,
-    OverviewComponent,
-  ],
+    // eslint-disable-next-line prettier/prettier
+    imports: [
+        CommonModule,
+        RobotComponentsModule,
+        SharedModule,
+    ],
+    declarations: [
+        StatusComponent,
+        OverviewComponent,
+    ]
 })
 export class RobotPagesModule {}

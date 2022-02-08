@@ -5,12 +5,10 @@ import { RobotRoutingModule } from './robot-routing.module';
 import { RobotPagesModule } from './pages/robot-pages.module';
 
 @NgModule({
-  // entryComponents: [JournalComponent, UserManagementComponent, UsersComponent, RolesComponent],
-  entryComponents: [],
-  imports: [
-    CommonModule,
-    RobotRoutingModule,
-    RobotPagesModule,
-  ],
+    imports: [
+        CommonModule,
+        RobotRoutingModule,
+        RobotPagesModule,
+    ]
 })
 export class RobotModule {}

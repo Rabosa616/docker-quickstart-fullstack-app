@@ -18,15 +18,14 @@ export function LogServiceProvider(): Provider {
 
 
 @NgModule({
-  entryComponents: [],
-  imports: [
-    CommonModule,
-    LogsRoutingModule,
-    LogsPagesModule,
-  ],
-  providers: [
+    imports: [
+        CommonModule,
+        LogsRoutingModule,
+        LogsPagesModule,
+    ],
+    providers: [
     // If we would put a provider here the LogService would be duplicated as it's also used in Layout component for the notifications
     // {provide: LogsService, useClass: environment.mockUI ? LogsServiceMock : LogsService }
-  ]
+    ]
 })
 export class LogsModule {}

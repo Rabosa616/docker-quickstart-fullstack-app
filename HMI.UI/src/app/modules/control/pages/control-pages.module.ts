@@ -7,16 +7,15 @@ import { Tab2Component } from './tab2/tab2.component';
 import { MainComponent } from './main/main.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    ControlComponentsModule,
-    SharedModule,
-  ],
-  entryComponents: [],
-  declarations: [
-    StatusComponent,
-    MainComponent,
-    Tab2Component,
-  ],
+    imports: [
+        CommonModule,
+        ControlComponentsModule,
+        SharedModule,
+    ],
+    declarations: [
+        StatusComponent,
+        MainComponent,
+        Tab2Component,
+    ]
 })
 export class ControlPagesModule {}
