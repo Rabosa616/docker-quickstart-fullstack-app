@@ -2,7 +2,7 @@
 This is a demo project which can be used as a quickstart in the technologies used or simply as a repository of code snippets that can be copy&pasted into another project.
 
 The main stack of technologies that you will find in this project is:
-- .NET 5
+- .NET 6
 - Angular 11
 - SQLite
 - nginx as reverse-proxy gateway
@@ -38,11 +38,11 @@ The main stack of technologies that you will find in this project is:
 
 
 ## Backend
-1.	.Net core API Authentication Integrated
+1. .Net core API Authentication Integrated
     - Implemented with SQLite database with users with login and password with Entity Framework
     - Generates an HTTP Only Cookie Token and another Token that must be sent in each request
     - The token per request expires after some time and must be "refreshed" by a keep-alive in the UI
-2.	API with Swashbuckle to generate the OpenAPI specification and Swagger UI.
+2. API with Swashbuckle to generate the OpenAPI specification and Swagger UI.
 3. Entity Framework with SQLite
     - Used to store users and languages as an example
 4. Unit tests with xUnit
